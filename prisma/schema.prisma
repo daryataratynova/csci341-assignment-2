@@ -20,7 +20,7 @@ model DiseaseType {
 
 model Country {
   cname String @id @db.VarChar(50)
-  population BigInt
+  population Int
 
   discover Discover[]
   users Users[]
